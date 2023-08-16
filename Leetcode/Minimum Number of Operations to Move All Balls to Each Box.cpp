@@ -2,6 +2,8 @@ class Solution {
 public:
     vector<int> minOperations(string boxes) {
         //using brute force i.e using O(n^2) time complexity
+        TODO: Optimize time complexity
+        
         int i,j;
         vector<int> ans(boxes.size(),0);
       
