@@ -20,7 +20,7 @@ int divisibleSumPairs(int n, int k, vector<int> ar) {
     int i,j,pairs=0;
     for(i=0;i<ar.size();i++){
         for(j=i+1;j<ar.size();j++){
-            if((ar[i]+ar[j])%k==0)     // NOTE : ( (ar[i]+ar[j])%k==0 ) is correct way NOT ( ar[i]+ar[j]%k==0 )
+            if((ar[i]+ar[j])%k==0)      // NOTE : ( (ar[i]+ar[j])%k==0 ) is correct way NOT ( ar[i]+ar[j]%k==0 )
                 pairs++;
         }
     }
