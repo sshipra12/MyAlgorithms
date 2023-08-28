@@ -13,7 +13,7 @@ string rtrim(const string &);
  */
 
 int findDigits(int n) {
-  // get each digit and check if it divides n
+   // get each digit and check if it divides n
     int num=n,digit,divisors=0;
   
     while(num>0){
