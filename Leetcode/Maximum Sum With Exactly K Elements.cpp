@@ -7,7 +7,7 @@ public:
             if(nums[i]>maxEle)
                 maxEle=nums[i];
         }
-        // in each operation we pick the max and max changes to (max+1)
+        // in each operation we pick the max and max changes to (max+1) {because we add (max+1) to array}
         while(k--){
             score=score+maxEle;
             maxEle++;
