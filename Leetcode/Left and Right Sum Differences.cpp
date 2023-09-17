@@ -18,7 +18,7 @@ public:
         vector<int> ans(nums.size());
         for(i=0;i<nums.size();i++){
             ans[i]=abs(prefixSum-suffixSum[i+1]);
-            prefixSum=prefixSum+nums[i];        // prefixSum var already stores the prefix sum upto (i-1)th index before each operation
+            prefixSum=prefixSum+nums[i];           // prefixSum var already stores the prefix sum upto (i-1)th index before each operation
         }
         return ans;
     }
