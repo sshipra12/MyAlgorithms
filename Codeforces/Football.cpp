@@ -7,6 +7,7 @@ int main()
     int i,maxConsecutive=0,consecutive=0;
     string s;
     cin>>s;
+    
     for(i=0;i<s.size();i++){
         if(i==0||s[i]==s[i-1])
             consecutive++;
