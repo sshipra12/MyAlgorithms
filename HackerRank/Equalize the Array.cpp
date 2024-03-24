@@ -5,7 +5,6 @@
  * The function accepts INTEGER_ARRAY arr as parameter.
 
 Q => Given an array of integers, determine the minimum number of elements to delete to leave only elements of equal value.
- 
  */
 
 int equalizeArray(vector<int> arr) {
