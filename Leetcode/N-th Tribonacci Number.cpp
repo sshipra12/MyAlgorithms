@@ -11,7 +11,7 @@ public:
         else if(n==1||n==2)
             return 1;
 
-        // TODO : Add some comments for understanding
+        // TODO : Add some comments for better understanding
         int nthTerm,n1,n2,n3; // n1= n-1, n2= m-2, n3= n-3
         if(dp[n-1]==-1){
             dp[n-1]=tribo(n-1,dp);
