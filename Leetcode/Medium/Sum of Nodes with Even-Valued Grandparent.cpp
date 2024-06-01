@@ -35,6 +35,7 @@ public:
                 if(root->right->right!=NULL)
                     grandChildrenSum+=root->right->right->val;
             }
+            // return current even node's grandchildren sum + sum of the grandchildren nodes with even grandparent in left and right subtree
             return grandChildrenSum + sumEvenGrandparent(root->left) + sumEvenGrandparent(root->right);
         }
         else
