@@ -14,6 +14,7 @@ public:
     int sumEvenGrandparent(TreeNode* root) {
         // we will solve this without the use of passing the parameter by reference
         // think in terms of subtree
+        
       // TODO: Comment learning and thinking
         if(root==NULL)
             return 0;
