@@ -2,7 +2,7 @@ class Solution {
 public:
     int arrangeCoins(int n) {
         // we use of formula of sum of 1st n positive integers
-        // TDOD: write explanation
+        // TODO: write explanation
         long long int m=0,firstMSum=0;
         while(firstMSum<n){
             m++;
