@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minCostFromIthToNthStair(int stair, vector<int>& cost) {
+        // TDOD: Better solution than this, as this gives TLE for large inputs
         // definition of state: minimum cost to reach from ith stair to target(here nth) stair
 
         // base case when transition fails
