@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool canReachFromIthToTarget(int index, vector<int> &nums){
+        
         // TDOD: solution in better time complexity
         // base case: when we have reached target or beyond it
         if(index==nums.size()-1)
