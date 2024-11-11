@@ -8,6 +8,7 @@ Q => Given an array of integers, determine the minimum number of elements to del
  */
 
 int equalizeArray(vector<int> arr) {
+    
     int i,frequencyarray[101],maxfrequency=0;
     for(i=0;i<101;i++){
         frequencyarray[i]=0;
