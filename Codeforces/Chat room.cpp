@@ -6,6 +6,7 @@ int main()
 {
     int i,ind=0;
     string s,hello="hello";
+    
     // we just have to find if string "hello" occurs in given string s as a subsequence
     // this way we can check whether a Given small string/array occurs as a subsequence of a bigger string/array
     
