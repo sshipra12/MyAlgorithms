@@ -11,6 +11,7 @@ int main()
     for(i=0;i<s.size();i++){
         if(i==0||s[i]==s[i-1])
             consecutive++;
+        
         //breaking conditions
         if(i==s.size()-1||s[i]!=s[i-1]){
             if(consecutive>maxConsecutive)
