@@ -1,7 +1,8 @@
 class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
-        
+
+        // TODO: add more comments for more explanation
         // make pairs of max with 2nd max and so on, so that min(a1,a2) in any pair is maximised
         
         int i,sum=0;
