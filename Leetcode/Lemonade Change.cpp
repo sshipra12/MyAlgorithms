@@ -5,12 +5,13 @@ public:
         int i,n=bills.size();
         bool canGiveChange=true;
 
-        // create an array to store the count of 5 and 10 $ notes
+        // create an array to store the count of 5$ and 10 $ notes as only these are useful for giving change
         int noteCountArr[2];
         noteCountArr[0]=0;
         noteCountArr[1]=0;
 
-        // iterate over the bills array from left to right and store the 5 and 10 notes along the way
+        // iterate over the bills array from left to right and store the 5$ and 10$ notes along the way
+        // and check if we can give change to people from the changes collected earlier
         for(i=0;i<=n-1;i++){
             if(bills[i]==5)
                 noteCountArr[0]++;
